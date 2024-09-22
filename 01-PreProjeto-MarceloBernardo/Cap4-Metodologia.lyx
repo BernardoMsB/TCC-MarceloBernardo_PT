@@ -1,0 +1,2420 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master ../../../../../../Dropbox/05-Gestao/Modelos/1-ModelosDiretorios/ModeloDiretorio-Aluno-Bolsista-TCC-IC-MSC-DSC-Projeto-GIT/04-Projeto-Mestrado-Doutorado-BancaEditalSelecao/Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Metodologia 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Methodology
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Metodologia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Metodologia} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A metodologia adotada neste estudo visa investigar as propriedades das rochas
+ reservatório da formação Barra Velha, localizada na Bacia de Santos, com
+ foco na caracterização de parâmetros petrofísicos para analisar a distribuição
+ de poros.
+ Estimativas como porosidade, permeabilidade, tortuosidade e características
+ dos poros têm como objetivo avaliar a distribuição de poros de acordo com
+ a classificação de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+, utilizando o modelo de Washburn (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ As escolhas metodológicas foram fundamentadas nos conceitos abordados no
+ capítulo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:Revisão-Bibliográfica"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Definição da Amostra
+\end_layout
+
+\begin_layout Standard
+As amostras analisadas neste estudo são provenientes do poço 1-BRSA-491-SPS,
+ localizado no campo de LAPA.
+ O poço faz parte do antigo bloco exploratório BM-S-09, descoberto em 2007.
+\end_layout
+
+\begin_layout Standard
+O campo situa-se na porção central da Bacia de Santos, a aproximadamente
+ 300 
+\begin_inset Formula $km$
+\end_inset
+
+ da costa do estado de São Paulo, com profundidade de água em torno de 2.150
+ metros.
+ A área total do campo de Lapa é de aproximadamente 229 
+\begin_inset Formula $km²$
+\end_inset
+
+.
+ A localização exata do poço e os limites do bloco exploratório podem ser
+ observados no mapa apresentado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Location-map-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Location map of Carioca well.png
+	lyxscale 50
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Location-map-of"
+
+\end_inset
+
+Location map of the region of Carioca
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os fragmentos coletados foram fornecidos pela Agência Nacional do Petróleo
+ (ANP).
+ Para caracterizar a amostra, os dados foram coletados a partir de 12 profundida
+des diferentes.
+ Os dados são apresentados com base em duas técnicas: MIP (Porosimetria
+ por Intrusão de Mercúrio) e Membrana.
+ 
+\end_layout
+
+\begin_layout Standard
+No entanto, apenas as 06 profundidades relacionadas à técnica de intrusão
+ de mercúrio serão consideradas.
+ As profundidades selecionadas fornecem perfis detalhados das propriedades
+ da formação rochosa.
+ A Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Maximum-pressure-and minimum pore throat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra as 06 profundidades analisadas usando a técnica MIP.
+ Nessa tabela, é possível observar a pressão máxima medida em 
+\begin_inset Formula $(psia)$
+\end_inset
+
+ e o raio mínimo da garganta do poro, medido em 
+\begin_inset Formula $(mm),$
+\end_inset
+
+ atingidos durante o experimento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.7cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Poço (ANP)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Tipo de Amostra
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Profundidade (
+\begin_inset Formula $m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Porosidade (%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Pressão Máxima (
+\begin_inset Formula $psia$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Raio Mínimo de Poro (
+\begin_inset Formula $mm$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5236,4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+14,0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+59984,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5240,5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+8,0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+59987,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5243
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+12,5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+56584,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001885 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5249
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+11,9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+59986,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5249,2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+7,8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+59985,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1-BRSA-491-SPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Fragmento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+5250
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+8,9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+59985,7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0,001778 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Maximum-pressure-and minimum pore throat"
+
+\end_inset
+
+ Propriedades das amostras a partir da técnica de MIP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Porosimetria por Intrusão de Mercúrio
+\end_layout
+
+\begin_layout Subsection
+Princípio do Método
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+, o mercúrio é um fluido não molhante capaz de penetrar nos menores poros
+ até que uma pressão suficiente seja exercida para induzir sua entrada.
+ À medida que o diâmetro do poro diminui, a pressão necessária para a entrada
+ aumenta, estabelecendo uma relação inversamente proporcional entre a pressão
+ requerida e o diâmetro do poro.
+ Quando um poro específico é molhado pelo mercúrio, uma força externa que
+ atua para introduzir sua entrada incide sobre a área de contato com o poro.
+ O produto dessa força por unidade de área e a área total equivale à força
+ externa total aplicada ao mercúrio.
+ 
+\end_layout
+
+\begin_layout Standard
+Antes de ser compelido a entrar no espaço poroso, deve haver uma força que
+ se opõe à força externa, garantindo o equilíbrio.
+ Essa força, por sua vez, resulta do produto da tensão superficial do mercúrio
+ pelo cosseno do ângulo de contato, multiplicado pelo perímetro de contato
+ do poro.
+ Após manipulações algébricas, é possível obter a relação entre a pressão
+ aplicada e o tamanho do poro, conforme mostrado na equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Essa relação entre diâmetro de poro e pressão é conhecida como a equação
+ de Washburn.
+ Nesta abordagem, a amostra é colocada em uma câmara submetida a diferentes
+ estágios de pressão de confinamento.
+ Quando uma determinada pressão é alcançada, o mercúrio é forçado a penetrar
+ nos poros maiores da amostra.
+ O volume total de mercúrio introduzido ou forçado a entrar nos poros é
+ equivalente ao volume total dos poros de um tamanho específico, correspondente
+ ao estágio de pressão atual.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+ demonstrou a relação entre a tensão superficial de líquidos e o ângulo
+ de contato.
+ Diferentes líquidos sobre a mesma superfície apresentam tensões superficiais
+ variadas, resultando em ângulos de contato diferentes com a superfície
+ sólida.
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Various-liquids-resting"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ilustra cinco líquidos distintos, cada um com um ângulo de contato diferente
+ em relação à superfície sólida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/wettability.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Various-liquids-resting"
+
+\end_inset
+
+ Vários líquidos repousando sobre uma superfície sólida.
+ Os diferentes ângulos de contato são ilustrados para líquidos molhantes
+ e não molhantes, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observe que um líquido com baixa tensão superficial em contato com uma superfíci
+e sólida de maior tensão superficial se espalhará, formando um ângulo de
+ contato inferior a 90°, sendo caracterizado como molhante.
+ Por outro lado, se a tensão superficial do líquido exceder a da superfície
+ sólida, o líquido formará uma gota com um ângulo de contato entre 90° e
+ 180°, classificando-se como um líquido não molhante em relação à superfície.
+\end_layout
+
+\begin_layout Standard
+Considerando que, neste trabalho, o mercúrio assume um ângulo de contato
+ de 140º, pode-se afirmar que o mercúrio exibe características não molhantes.
+ Como destacado no capítulo anterior, para o sucesso do método, a pressão
+ deve ser aumentada progressivamente em diferentes estágios.
+ Com o aumento da pressão de confinamento, a força aplicada externamente
+ supera a pressão capilar exercida contra o líquido não molhante, promovendo
+ a intrusão do mercúrio nos poros.
+\end_layout
+
+\begin_layout Standard
+Para explicar o uso do mercúrio como um líquido não molhante, enfatizam-se
+ certas características:
+\end_layout
+
+\begin_layout Itemize
+Apresenta baixa reatividade química com a maioria dos materiais à temperatura
+ ambiente;
+\end_layout
+
+\begin_layout Itemize
+Possui um alto ângulo de contato (112º a 142º), impedindo que a maioria
+ dos materiais seja molhada.
+\end_layout
+
+\begin_layout Standard
+Além disso, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Analitical-Methods-Webb"
+literal "false"
+
+\end_inset
+
+ discute que, a uma pressão de 414 
+\begin_inset Formula $MPa$
+\end_inset
+
+ (60.000 
+\begin_inset Formula $psi$
+\end_inset
+
+), o mercúrio pode ser forçado a entrar em poros tão pequenos quanto 0,003
+ micrômetros.
+ A aplicação da Porosimetria por Intrusão de Mercúrio (MIP) visa estimar
+ a distribuição do tamanho dos poros, incluindo as dimensões das gargantas
+ de poro.
+ Esta técnica permite a medição do tamanho mínimo garganta de poro que o
+ mercúrio pode entrar sob uma pressão específica.
+ 
+\end_layout
+
+\begin_layout Standard
+A porosimetria de mercúrio vai além da simples avaliação da porosidade.
+ Também é utilizada para determinar características como massa, densidade
+ da matriz e distribuição de partículas em um material.
+ Esta técnica permite o preenchimento de espaços vazios e espaços intersticiais,
+ correspondendo aos espaços entre as partículas na matriz do material.
+\end_layout
+
+\begin_layout Subsection
+Procedimento Experimental
+\end_layout
+
+\begin_layout Standard
+Uma amostra seca, de qualquer formato e previamente pesada, é colocada em
+ uma câmara que será preenchida com mercúrio em diferentes estágios de pressão.
+ Ao observar uma escala de volume, é possível deduzir a variação no nível
+ de mercúrio dentro da câmara.
+ Em pressões muito baixas, o mercúrio permanece ao redor da amostra, sem
+ penetrar nos poros, o que indica que o aumento do nível de mercúrio está
+ relacionado ao volume total da amostra.
+ Em contraste, à medida que a pressão aumenta, o mercúrio, que antes cercava
+ os poros, começa a preenchê-los, e uma diminuição no seu nível pode ser
+ observada na escala.
+ O mercúrio penetra em poros progressivamente menores em cada estágio, superando
+ a pressão capilar que atua contra o fluido não molhante 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+A configuração experimental para a Porosimetria por Intrusão de Mercúrio
+ (MIP) pode ser observada na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:MIP-Experimental-arrangement"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/MIP scheme.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:MIP-Experimental-arrangement"
+
+\end_inset
+
+Arranjo experimental para o teste de porosimetria por intrusão de mercúrio,
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como destacado anteriormente, para que o mercúrio penetre nos poros da amostra,
+ é necessário que uma força externa supere a pressão capilar.
+ Inicialmente, essa força é proporcionada pela pressão aplicada pelo gás
+ nitrogênio.
+ À medida que a pressão aumenta e não há um tamanho de poro que satisfaça
+ a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, a intrusão de mercúrio não ocorrerá, e o volume intrudido será zero, conforme
+ mostrado na região A da figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Quando a pressão atinge o valor ideal para preencher um determinado tamanho
+ de poro, ocorre a intrusão, e o volume intrudido aumenta, conforme mostrado
+ na região B da figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Se não houver tamanhos de poro que satisfaçam a equação de Washburn, mesmo
+ com aumentos consecutivos de pressão, a intrusão se estabiliza e um equilíbrio
+ é alcançado, conforme observado na região C da figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado.png
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Intrusion-volume-versus"
+
+\end_inset
+
+Volume de intrusão 
+\emph on
+vs
+\emph default
+ Pressão.
+ Figura adaptada de 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+(GOUVEA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Outra abordagem pode ser vista na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Volume-variation-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, onde a variação do volume de mercúrio intrudido em função da pressão leva
+ às conclusões obtidas a partir da análise da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intrusion-volume-versus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Além disso, fica evidente na mesma figura que o valor máximo de intrusão
+ de mercúrio indica o tamanho predominante da garganta dos poros na amostra
+ analisada em uma determinada profundidade.
+ Este estudo examinou várias amostras de diferentes profundidades, observando
+ a predominância de tamanhos de poros em cada uma.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Gouveia Modificado 2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Volume-variation-versus"
+
+\end_inset
+
+Variação do Volume 
+\emph on
+vs
+\emph default
+ Pressão.
+ Figura adaptada de (GOUVEA, 2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Análise dos Dados
+\end_layout
+
+\begin_layout Standard
+Com o objetivo central de analisar a distribuição de poros da formação Barra
+ Velha, localizada na Bacia de Santos, este estudo utilizará a equação de
+ Washburn como ferramenta fundamental para classificar os tamanhos das gargantas
+ dos poros em:
+\end_layout
+
+\begin_layout Itemize
+Microporos;
+\end_layout
+
+\begin_layout Itemize
+Mesoporos;
+\end_layout
+
+\begin_layout Itemize
+Macroporos.
+\end_layout
+
+\begin_layout Standard
+A equação de Washburn relaciona a pressão aplicada, o tamanho do poro e
+ as propriedades dos fluidos envolvidos, permitindo cálculos do diâmetro
+ dos poros.
+ A importância da pressão aplicada e do ângulo de tensão interfacial (também
+ conhecido como ângulo de contato) é crucial nessa relação.
+ 
+\end_layout
+
+\begin_layout Standard
+Neste modelo, a pressão aplicada e o ângulo de tensão interfacial determinam
+ a capacidade do mercúrio de penetrar nos poros, garantindo assim a precisão
+ na caracterização da distribuição do tamanho dos poros.
+ A pressão aplicada deve ser suficiente para superar a resistência capilar,
+ enquanto o ângulo de contato ajusta a equação para refletir a interação
+ específica entre o mercúrio e a superfície do material, permitindo os cálculos
+ dos raios dos poros.
+ A tensão interfacial, por sua vez, representa a força que atua na interface
+ entre o mercúrio (fluido não molhante) e a superfície sólida dos poros.
+\end_layout
+
+\begin_layout Standard
+Baseando-se em dados disponíveis na literatura, foram obtidos valores do
+ ângulo de contato mercúrio/amostra e da tensão interfacial entre mercúrio/ar,
+ contribuindo para a aplicação da equação de Washburn.
+ 
+\end_layout
+
+\begin_layout Standard
+Ao aplicar a equação a diferentes amostras em várias profundidades, foram
+ derivados valores do raio das gargantas dos poros, que, de acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2005confronting"
+literal "false"
+
+\end_inset
+
+, foram classificados com base na tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Pore-size-distribution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Classificação de Ahr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Raio de Garganta de Poro 
+\begin_inset Formula $r$
+\end_inset
+
+ (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\begin_inset Formula $m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Microporo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+ < 0.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mesoporo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5 < 
+\begin_inset Formula $r$
+\end_inset
+
+ < 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Macroporo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+ > 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Pore-size-distribution"
+
+\end_inset
+
+Distribuição de tamanho de poro de acordo com a classificação de Ahr, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Análise da Porosidade
+\end_layout
+
+\begin_layout Standard
+Como descrito na subseção 3.2.2, à medida que a pressão aumenta, o mercúrio
+ começa a preencher o espaço poroso.
+ Geralmente, há um limite além do qual não se observa mais aumento no volume
+ deslocado, mesmo com o aumento da pressão.
+ Ao atingir esse limite, entende-se que todo o espaço poroso foi preenchido,
+ e, portanto, o volume deslocado corresponde ao volume poroso da amostra.
+ 
+\end_layout
+
+\begin_layout Standard
+A porosidade pode ser estimada como a razão entre o volume dos poros e o
+ volume total.
+ Se o peso da amostra for conhecido, o volume e a densidade da matriz podem
+ ser calculados subtraindo-se o volume poroso do volume total.
+ A densidade total é calculada como a razão entre o peso da amostra e o
+ volume total 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Neste estudo, não foi possível acessar dados sobre o volume poroso e o volume
+ total das amostras, o que impediu o cálculo e a análise da densidade da
+ matriz.
+\end_layout
+
+\begin_layout Section
+Distribuição do Tamanho dos Poros, Área Superficial e Tortuosidade
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "webb2001introduction"
+literal "false"
+
+\end_inset
+
+ apresenta a teoria para a análise de dados de porosimetria por intrusão
+ de mercúrio (MIP), incluindo distribuição de tamanho de poros, área superficial
+ específica e estimativa de tortuosidade.
+ Essas metodologias podem ser implementadas usando o software Poremaster
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster"
+literal "false"
+
+\end_inset
+
+, que permite a análise dessas características das rochas.
+ De acordo com a Quantachrome, a distribuição de tamanho de poros é determinada
+ usando 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Pore size distribution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, que liga a função de distribuição de tamanho de poros 
+\begin_inset Formula $Dv\,(r)$
+\end_inset
+
+ ao raio de poro 
+\begin_inset Formula $(r)$
+\end_inset
+
+, bem como às variações de volume e pressão.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Dv\,(r)=\frac{P}{r}\frac{∂Vpp}{∂P}\label{eq: Pore size distribution}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A área da superfície pode ser calculada usando a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Surface area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, que fornece a área cumulativa dos poros que foram preenchidos com mercúrio
+ até um raio de 
+\begin_inset Formula $r$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster,webb2001introduction"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S=\frac{1}{\gamma\mid\cos\theta\mid}\intop P∂V\label{eq: Surface area}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por outro lado, a tortuosidade pode ser inferida utilizando a abordagem
+ descrita por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "carniglia1986construction"
+literal "false"
+
+\end_inset
+
+, de acordo com as equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity factor"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+τ=(2.23\,−\,1.13\,V_{CO}\,ρ_{HG})\,(0.92y)^{1+E}\label{eq: Tortuosity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y=\frac{4}{S}∑\frac{ΔVi}{di}\label{eq: Tortuosity factor}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $S$
+\end_inset
+
+ representa a área de superfície; 
+\begin_inset Formula $V_{CO}$
+\end_inset
+
+ é o volume específico total de poros; 
+\begin_inset Formula $\Delta V_{i}$
+\end_inset
+
+ indica a variação no volume de poro dentro de um intervalo específico de
+ tamanho de poro 
+\begin_inset Formula $i$
+\end_inset
+
+; 
+\begin_inset Formula $di$
+\end_inset
+
+ é o diâmetro médio dentro desse mesmo intervalo de tamanho de poro 
+\begin_inset Formula $i$
+\end_inset
+
+; 
+\begin_inset Formula $E$
+\end_inset
+
+ é o expoente da forma do poro (que é igual a 1 para poros cilíndricos);
+ 
+\begin_inset Formula $\rho_{HG}$
+\end_inset
+
+ é a densidade do mercúrio.
+\end_layout
+
+\begin_layout Standard
+No entanto, neste trabalho, tais valores não puderam ser obtidos devido
+ à escassez de dados fornecidos que poderiam ser utilizados nas equações.
+ Para analisar a distribuição de poros, a área de contato e a tortuosidade
+ de acordo com a abordagem de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "quantachrome2004poremaster"
+literal "false"
+
+\end_inset
+
+, os dados de volume de intrusão de mercúrio deveriam ter sido disponibilizados,
+ o que impossibilitou a avaliação desses parâmetros.
+\end_layout
+
+\begin_layout Section
+Análise da Permeabilidade
+\end_layout
+
+\begin_layout Standard
+Para estimar a permeabilidade, foram utilizadas duas abordagens distintas.
+ A primeira emprega o método de Winland 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+, enquanto a segunda baseia-se em uma regressão empírica, apresentada por
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O método de Winland envolve o ajuste de dados para correlacionar o raio
+ da garganta do poro, a permeabilidade e a porosidade, conforme mostrado
+ na Equação.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Winland method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,\phi\label{eq: Winland method}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste modelo, 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ representa o raio de garganta de poro 
+\begin_inset Formula $[µm]$
+\end_inset
+
+, preenchido com mercúrio a 35% de saturação de mercúrio em um teste de
+ MIP.
+ Por outro lado, 
+\begin_inset Formula $k_{air}$
+\end_inset
+
+ denota a permeabilidade absoluta relativa ao fluxo de ar 
+\begin_inset Formula $[mD]$
+\end_inset
+
+, e 
+\begin_inset Formula $\phi$
+\end_inset
+
+ é a porosidade [%].
+\end_layout
+
+\begin_layout Standard
+Na sua abordagem, Saki utilizou um método semelhante ao de Winland, mas
+ com um conjunto de dados mais amplo.
+ Para obter uma equação a qual correlacionasse a permeabilidade relativa
+ ao gás, porosidade e tamanho de garganta de poros, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ fez o uso da técnica de ajuste de curvas de modo a obter o maior valor
+ do coeficiente de determinação 
+\begin_inset Formula $(R^{2})$
+\end_inset
+
+.
+ Em sua abordagem, ele dispôs de valores de raio de garganta de poros, referente
+s a saturação de mercúrio, entre 20% e 60%.
+ Os valores encontrados podem ser observados através da Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Results-of-regresion SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Equação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coeficiente de Determinação, 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.6756+1.3627\,\log\,r_{20}+1.1369\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7624
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.3958+1.3974\,\log\,r_{25}+0.9583\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7970
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=−0.1862+1.4296\,\log\,r_{30}+0.8402\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8251
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.0583+1.4660\,\log\,r_{35}+0.6993\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8587
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.2365+1.4842\,\log\,r_{40}+0.6108\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8361
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.3785+1.4845\,\log\,r_{45}+0.5503\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8213
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.5420+1.4964\,\log\,r_{50}+0.4819\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8054
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.6796+1.5024\,\log\,r_{55}+0.4428\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7862
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\log\,K=\,0.8152+1.5110\,\log\,r_{60}+0.4157\,\log\,\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7521
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Results-of-regresion SAKI"
+
+\end_inset
+
+Resultados da análise de regressão para determinar a relação entre a permeabilid
+ade, a porosidade e os menores raios de garganta de poros preenchidos com
+ mercúrio.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme é possível inferir pela Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Results-of-regresion SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, o melhor coeficiente é obtido quando 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ é utilizado.
+ Dessa forma, a melhor equação que reflete a estimativa mais precisa para
+ o cálculo da permeabilidade é a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Saki method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,φ\label{eq: Saki method}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nesta Equação, 
+\begin_inset Formula $K$
+\end_inset
+
+ 
+\begin_inset Formula $[mD]$
+\end_inset
+
+ é a permeabilidade do gás, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ [%] representa a porosidade e 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $[µm]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ é o menor raio de poro preenchido por mercúrio a uma saturação de 35%.
+\end_layout
+
+\begin_layout Standard
+Além disso, a boa precisão do modelo desenvolvido por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ pode ser observada na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Measured-vs-calculated SAKI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, que mostra o gráfico dos valores de permeabilidade medidos contra os valores
+ calculados utilizando a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Saki method"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Saki model cross-plot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Measured-vs-calculated SAKI"
+
+\end_inset
+
+Permeabilidade medida 
+\emph on
+vs 
+\emph default
+calculada, extraído de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por outro lado, vale ressaltar a impossibilidade de utilizar o método de
+ estimativa de permeabilidade baseado na teoria de Kozeny-Carman 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kozeny1927ueber"
+literal "false"
+
+\end_inset
+
+ devido à insuficiência de dados para calcular a tortuosidade, um dos parâmetros
+ essenciais desse modelo.
+ A tortuosidade é fundamental para determinar a resistência adicional ao
+ fluxo de fluidos nos poros da rocha, e sua ausência impede a aplicação
+ precisa do modelo de Kozeny-Carman na análise da permeabilidade das amostras
+ estudadas.
+\end_layout
+
+\end_body
+\end_document

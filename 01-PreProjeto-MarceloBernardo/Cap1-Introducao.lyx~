@@ -1,0 +1,670 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introdução
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Introdução
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+rhead{}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Desde sua revelação em 2007, o pré-sal brasileiro trouxe possibilidades
+ e ambições em relação à autonomia energética do Brasil.
+ Os impactos econômicos gerados por essa descoberta foram cruciais para
+ revolucionar não apenas o setor energético do país, mas a economia como
+ um todo.
+ Com os avanços nas atividades de pesquisa e desenvolvimento para a exploração
+ de campos 
+\emph on
+offshore
+\emph default
+, iniciou-se uma corrida por resultados rápidos, justificando o abandono
+ de diretrizes anteriores, como a exploração onshore, parcialmente substituída
+ em 1966 pela exploração 
+\emph on
+offshore
+\emph default
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dias1993questao"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A decisão de explorar petróleo offshore fez com que o Brasil assumisse riscos
+ econômicos ainda maiores do que os já existentes em terra.
+ Fatores como velocidade do vento, altura das ondas, direção das correntes,
+ pressões hidrostáticas, baixas temperaturas no fundo do mar e as característica
+s dúcteis das rochas carbonáticas são alguns dos desafios técnicos enfrentados
+ para a viabilidade da exploração nos campos do pré-sal.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "morais2013petroleo"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Uma das principais descobertas nessa região foi a Bacia de Santos, localizada
+ no sudeste do Brasil, abrangendo as costas dos estados do Rio de Janeiro,
+ São Paulo, Paraná e Santa Catarina.
+ Geologicamente, a Bacia de Santos é limitada ao norte pela Bacia de Campos,
+ próxima ao alto de Cabo Frio, enquanto sua fronteira sul é estabelecida
+ próxima ao alto de Florianópolis, na Bacia de Pelotas.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANP-Rodada-Bacia-de-Santos"
+literal "false"
+
+\end_inset
+
+, conforme mostrado na figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Santos-Basin-location"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Santos basin.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Santos-Basin-location"
+
+\end_inset
+
+Mapa de localização da Bacia de Santos.
+ Linhas pontilhadas e tracejadas representam características estruturais
+ importantes do fundo do oceano.
+ FFZ: Zona de Fratura de Florianópolis.
+ Ribeiro et al.
+ (2017)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A região do pré-sal, além de seu potencial petrolífero, é caracterizada
+ pela presença de depósitos carbonáticos do 
+\emph on
+play
+\emph default
+ "Pré-Sal", do qual a Formação Barra Velha faz parte.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "amorim2021analise"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosa2006engenharia"
+literal "false"
+
+\end_inset
+
+ discute que a maioria das reservas de petróleo comercialmente utilizadas
+ se formam em depósitos em reservatórios compostos por rochas sedimentares,
+ tanto clásticas quanto não clásticas, com arenitos e calcários sendo os
+ mais predominantes.
+ No entanto, outros tipos de rochas também podem apresentar porosidade suficient
+e para serem considerados reservatórios importantes.
+ Nesses casos, a porosidade pode resultar de espaços intersticiais, embora
+ frequentemente seja atribuída à existência de fraturas.
+\end_layout
+
+\begin_layout Standard
+Para que o petróleo seja armazenado na rocha do reservatório, a rocha deve
+ ter porosidade, permitindo que ela retenha o fluido, bem como permeabilidade,
+ uma característica fundamental.
+ A permeabilidade determina a capacidade do meio poroso de permitir a passagem
+ de fluidos, atuando como uma medida da condutividade do fluido em um material.
+ A avaliação da porosidade e da permeabilidade desempenha um papel crucial
+ na descrição de um reservatório e na definição dos padrões de fluxo, visando
+ melhorar a eficiência da produção de petróleo.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosa2006engenharia"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As rochas carbonáticas possuem características que conferem alta complexidade.
+ Além das dificuldades na avaliação das propriedades das rochas, muitos
+ carbonatos exibem heterogeneidades estruturais laterais, admitindo, portanto,
+ alta variação nas propriedades das rochas ao longo do campo.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "al2010resolving"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A caracterização da porosidade em materiais geológicos desempenha um papel
+ fundamental em várias aplicações, desde a exploração de recursos naturais
+ até a fabricação de produtos industriais.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Analitical-Methods-Webb"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+A Formação Barra Velha é composta por depósitos de rochas carbonáticas encontrad
+os na área do play petrolífero conhecido como "Pré-sal".
+ A Bacia de Santos, por sua vez, pode ser classificada como uma bacia de
+ margem continental passiva e passa por três distintas fases evolutivas
+ tectonostratigráficas: a fase de rift, seguida pela fase pós-rift e, finalmente
+, a fase de drift.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sob uma perspectiva litostratigráfica, a Formação Barra Velha ocupa a sequência
+ sedimentar basal da fase pós-rift e foi dividida em duas sequências deposiciona
+is, a inferior e a superior, separadas por uma descontinuidade regionalmente
+ significativa na escala da bacia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+ Como destacado por esses autores, essa formação, de idade eoaptiana, é
+ caracterizada por limestones/laminites de origem microbiana, estromatólitos
+ e microbialitas que são parcialmente ou totalmente dolomitizadas.
+ Também é rica em talco e argilas magnesianas nas porções proximais e em
+ argilas carbonáticas nas porções distais, depositadas sobre a descontinuidade
+ do Pré-Alagoas.
+ Por outro lado, a Formação Barra Velha superior, de idade neoaptiana, consiste
+ em leques aluviais conglomeráticos-areníticos nas porções proximais e em
+ limestones estromatolíticos e laminites microbianas, localmente dolomitizadas,
+ nas porções distais da bacia.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "artagao2018analise"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Portanto, a análise precisa da distribuição do tamanho dos poros é crucial
+ para entender a viabilidade e o uso potencial desses materiais.
+ Neste trabalho, será desenvolvido um estudo para analisar a distribuição
+ do tamanho dos poros da Formação Barra Velha, localizada na Bacia de Santos,
+ utilizando a técnica de Porosimetria por Intrusão de Mercúrio (MIP).
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leon98"
+literal "false"
+
+\end_inset
+
+ enfatiza a rapidez experimental e a relevância significativa da porosimetria
+ por mercúrio, destacando sua capacidade de avaliar múltiplas propriedades
+ em uma única amostra.
+ Também conclui que a distribuição do tamanho dos poros é um dos modelos
+ mais promissores para essa técnica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+ esclarece que a porosimetria por mercúrio identifica o tamanho dos poros
+ de acordo com a pressão aplicada à amostra, o que significa que diâmetros
+ de garganta de poro maiores são identificados em baixas pressões e vice-versa.
+ Além disso, constatou que o menor tamanho de poro identificado nessa análise
+ é de 3,5 
+\begin_inset Formula $nm$
+\end_inset
+
+ de diâmetro, com uma pressão máxima de 60.000 
+\begin_inset Formula $psi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "madonna2013synchrotron"
+literal "false"
+
+\end_inset
+
+ examinou a porosidade das amostras de rocha utilizando imagens 3D produzidas
+ por tomografia por raios X e concluiu que, nas amostras analisadas, o movimento
+ do fluido dentro da rocha ocorria principalmente por meio de macroporos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yu2014quantitative"
+literal "false"
+
+\end_inset
+
+ explorou a estrutura porosa utilizando microscopia eletrônica e porosimetria
+ por mercúrio e determinou que amostras carbonáticas com mais de 50% da
+ rede porosa composta por microporos influenciaram a permeabilidade.
+ No entanto, essa porção teve um impacto negligenciável ou mínimo na permeabilid
+ade nesta investigação em particular.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archilha2015quantificaccao"
+literal "false"
+
+\end_inset
+
+ observou que a microporosidade não se destacou como um fator primário na
+ previsão da permeabilidade com base no conjunto de dados analisado, implicando
+ que outros fatores desempenham um papel mais significativo.
+\end_layout
+
+\begin_layout Standard
+Com base nos estudos mencionados, esta tese irá categorizar os tamanhos
+ das gargantas de poro determinados por meio da porosimetria por mercúrio
+ em microporos (< 0,5 
+\begin_inset Formula $μm$
+\end_inset
+
+), mesoporos (0,5 - 5
+\begin_inset Formula $μm$
+\end_inset
+
+) e macroporos (> 5
+\begin_inset Formula $μm$
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archie1942electrical"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Escopo do Problema
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Escopo do Problema
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Escopo-do-Problema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+À luz da descoberta significativa do pré-sal na Bacia de Santos, especificamente
+ na Formação Barra Velha, torna-se imperativo realizar uma análise detalhada
+ da distribuição do tamanho dos poros nesta formação.
+ O uso da Porosimetria por Intrusão de Mercúrio (MIP) emerge como a abordagem
+ principal para alcançar esse objetivo.
+\end_layout
+
+\begin_layout Standard
+O escopo deste trabalho foca na aplicação da MIP como uma ferramenta fundamental
+ para avaliar a porosidade da Formação Barra Velha.
+ A ênfase principal recai sobre a análise da distribuição do tamanho dos
+ poros, um passo crucial para entender a viabilidade e o uso potencial desses
+ materiais.
+ A classificação dos poros em microporos, mesoporos e macroporos será uma
+ parte integral do processo de análise, com a intenção de categorizar e
+ compreender a estrutura porosa em diferentes escalas.
+\end_layout
+
+\begin_layout Standard
+Para alcançar essa classificação, foi utilizado o Modelo de Washburn, destacando
+-se como uma ferramenta específica para descrever a dinâmica da intrusão
+ de mercúrio em poros finos.
+ Compreender esses padrões de intrusão não apenas fornecerá insights valiosos
+ sobre a distribuição dos poros, mas também permitirá uma caracterização
+ mais precisa da porosidade da Formação Barra Velha.
+\end_layout
+
+\begin_layout Standard
+Ao final deste estudo, a expectativa é não apenas fornecer uma análise abrangent
+e da distribuição do tamanho dos poros, mas também contribuir para uma compreens
+ão mais ampla das propriedades porosas desta formação geológica específica.
+ Essa contribuição tem o potencial de influenciar diretamente futuras estratégia
+s de exploração e produção de petróleo nesta região estratégica da Bacia
+ de Santos.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Objetivos
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os objetivos deste estudo são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo Geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avaliar a distribuição do tamanho dos poros das rochas da Formação Barra
+ Velha a partir do conjunto de dados da Porosimetria por Injeção de Mercúrio
+ (MIP).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos Específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Realizar uma análise detalhada da porosidade da Formação Barra Velha, identifica
+ndo características específicas que influenciam a retenção de fluidos.
+\end_layout
+
+\begin_layout Itemize
+Utilizar a técnica de MIP para classificar os poros encontrados na formação
+ em microporos, mesoporos e macroporos, fornecendo uma categorização detalhada
+ da estrutura porosa.
+\end_layout
+
+\begin_layout Itemize
+Empregar o Modelo de Washburn como uma ferramenta específica para descrever
+ a dinâmica da intrusão de mercúrio em poros finos, contribuindo para a
+ compreensão da relação entre o diâmetro do poro e a pressão aplicada.
+\end_layout
+
+\begin_layout Itemize
+Explorar questões físicas e matemáticas associadas ao problema, visando
+ resolver aspectos específicos relacionados à porosidade da Formação Barra
+ Velha.
+\end_layout
+
+\begin_layout Itemize
+Sintetizar os resultados obtidos para fornecer insights que possam influenciar
+ futuras estratégias de exploração e produção de petróleo na Bacia de Santos,
+ especialmente na região da Formação Barra Velha.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

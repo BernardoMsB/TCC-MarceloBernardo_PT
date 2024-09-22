@@ -1,0 +1,2146 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Revisão Bibliográfica} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Revisão Bibliográfica 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Revisão Bibliográfica
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Revisão-Bibliográfica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste capítulo, serão discutidos conceitos relevantes diretamente relacionados
+ ao presente trabalho.
+ Esses conceitos formam a base teórica para o desenvolvimento e compreensão
+ do tema.
+ Esta seção está dividida nos contextos geológicos da Formação Barra Velha,
+ propriedades petrofísicas, conceitos de porosidade e permeabilidade, porosimetr
+ia por mercúrio, distribuição do tamanho dos poros, seguida por modelos
+ matemáticos e teóricos.
+\end_layout
+
+\begin_layout Section
+Propriedades e Parâmetros das Rochas
+\end_layout
+
+\begin_layout Subsection
+Propriedades do Espaço Poroso
+\end_layout
+
+\begin_layout Standard
+Em seu estudo, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schon2011physical"
+literal "false"
+
+\end_inset
+
+enfatiza a importância fundamental de caracterizar o espaço poroso como
+ uma propriedade do reservatório, como porosidade e permeabilidade.
+ Essas propriedades são essenciais para caracterizar e descrever o comportamento
+ do fluxo de fluidos dentro do reservatório.
+\end_layout
+
+\begin_layout Standard
+As propriedades do espaço poroso da rocha são descritas a seguir:
+\end_layout
+
+\begin_layout Itemize
+Fração de volume dos fluidos (porosidade, saturação, volume total de fluido).
+\end_layout
+
+\begin_layout Itemize
+Características que determinam a distribuição dos fluidos no espaço poroso
+ (pressão capilar, área superficial interna específica e molhabilidade).
+\end_layout
+
+\begin_layout Itemize
+Propriedades que regulam o fluxo de fluidos sob a influência de um gradiente
+ de pressão (permeabilidade).
+\end_layout
+
+\begin_layout Subsection
+Porosidade
+\end_layout
+
+\begin_layout Standard
+A porosidade desempenha um papel crucial na engenharia de petróleo, especialment
+e no contexto dos reservatórios de petróleo.
+ Refere-se à quantidade de espaço vazio dentro da rocha do reservatório
+ que pode armazenar hidrocarbonetos, como petróleo e gás.
+ A importância da porosidade se manifesta em várias áreas-chave do processo
+ de exploração e produção de petróleo.
+\end_layout
+
+\begin_layout Standard
+Primeiramente, a porosidade é essencial para a estimativa de reservas.
+ Determinar a porosidade de uma rocha reservatória permite calcular o volume
+ total de hidrocarbonetos que o reservatório pode conter.
+ Esse cálculo é fundamental para estimar as reservas recuperáveis, ou seja,
+ a quantidade de petróleo e gás que pode ser extraída economicamente.
+ Além disso, a porosidade caracteriza a qualidade do reservatório.
+ Reservatórios com alta porosidade tendem a ser mais eficientes no armazenamento
+ de hidrocarbonetos, proporcionando mais espaço para os fluidos.
+\end_layout
+
+\begin_layout Standard
+A porosidade total pode ser definida como a razão entre o volume de poros
+ da rocha e o volume total, conforme mostrado nas equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Porosidade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Volume total"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, respectivamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi=\frac{V_{p}}{V_{total}}\label{eq:Porosidade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{total}=V_{p}+V_{matrix}\label{eq:Volume total}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $\phi$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[\nicefrac{m^{3}}{m^{3}}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ é a porosidade (%), 
+\begin_inset Formula $V_{p}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[m^{3}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ é o volume poroso e 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left[m^{3}\right]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ é o volume da matriz.
+\end_layout
+
+\begin_layout Standard
+A porosidade efetiva, que é ainda mais relevante para a indústria petrolífera,
+ é determinada pela razão entre o volume de poros conectados e o volume
+ total da rocha.
+\end_layout
+
+\begin_layout Standard
+A porosidade em carbonatos é altamente variável em magnitude, com valores
+ variando de 1% a 35% e tamanhos de poros que podem variar de centenas de
+ micrômetros a poucos nanômetros dentro de um plug de 1,5 polegadas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lucia1999characterization"
+literal "false"
+
+\end_inset
+
+.
+ Além disso, há uma ampla variedade de tipos de poros, como ilustrado na
+ Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Porosity-types-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Porosity types.png
+	lyxscale 50
+	scale 75
+	BoundingBox 0bp 0bp 706bp 591bp
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Porosity-types-in"
+
+\end_inset
+
+Tipos de porosidade em carbonatos.
+ Adaptado de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flugel2010microfacies"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flugel2010microfacies"
+literal "false"
+
+\end_inset
+
+, a porosidade interparticular refere-se aos espaços vazios entre grãos
+ e cristais e pode ser explicada considerando a distribuição do tamanho
+ dos poros e o tamanho das partículas.
+ A porosidade intraparticular, por outro lado, está relacionada aos espaços
+ vazios dentro dos próprios grãos, enquanto a porosidade moldica resulta
+ da remoção seletiva de grãos, normalmente por meio de dissolução.
+ 
+\end_layout
+
+\begin_layout Standard
+As fraturas são espaços porosos formados pela ruptura da rocha, que podem
+ ocorrer devido ao aumento da pressão ou movimentos tectônicos, e são particular
+mente significativas para o fluxo de hidrocarbonetos, especialmente em rochas
+ carbonáticas.
+ Os canais, por sua vez, originam-se da dissolução de fraturas ou grãos.
+ 
+\end_layout
+
+\begin_layout Standard
+Por fim, a porosidade vugular é causada pela dissolução de grãos ou cimentos,
+ criando potencialmente espaços que variam de milímetros a metros.
+\end_layout
+
+\begin_layout Subsubsection
+Porosidade Primária e Secundária
+\end_layout
+
+\begin_layout Standard
+Além disso, as porosidades em rochas carbonáticas podem ser classificadas
+ de acordo com a deposição de materiais sedimentares e são chamadas de porosidad
+e primária e secundária.
+ Esses dois tipos de porosidade estão diretamente interconectados na formação
+ do espaço poroso.
+\end_layout
+
+\begin_layout Standard
+A porosidade primária é formada durante a deposição de material sedimentar
+ e pode ser intragranular (dentro dos grãos) ou intergranular (entre os
+ grãos).
+ Fatores que influenciam a formação da porosidade primária incluem arranjo,
+ tamanho dos grãos, compactação, classificação, angularidade e cimentação.
+\end_layout
+
+\begin_layout Standard
+A porosidade secundária, também conhecida como porosidade pós-deposicional,
+ surge como resultado de processos geológicos que ocorrem após a formação
+ da rocha a partir de sedimentos.
+ Esses processos incluem fraturamento, dissolução, dolomitização e fraturamento
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flugel2010microfacies"
+literal "false"
+
+\end_inset
+
+.
+ A porosidade secundária é comumente encontrada em rochas carbonáticas,
+ pois pode ser gerada por processos como dissolução, dolomitização ou fraturamen
+to.
+\end_layout
+
+\begin_layout Standard
+Além dessas categorias, existem várias classificações baseadas no tamanho
+ dos poros, que são divididos em micro, meso e macroporos.
+ Este estudo adota a classificação proposta por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahr2011geology"
+literal "false"
+
+\end_inset
+
+, definindo microporos como aqueles com diâmetro inferior a 0,5 
+\begin_inset Formula $μm$
+\end_inset
+
+, mesoporos entre 0,5 e 5
+\begin_inset Formula $μm$
+\end_inset
+
+, e macroporos com diâmetro superior a 5 
+\begin_inset Formula $μm$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Tortuosidade
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "azar2008approach"
+literal "false"
+
+\end_inset
+
+, tortuosidade (
+\begin_inset Formula $\tau$
+\end_inset
+
+) é a razão entre o caminho real percorrido pelo fluido e o caminho teórico,
+ conforme mostrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Actual-flow-path"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Tortuosidade.jpg
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Actual-flow-path"
+
+\end_inset
+
+ 
+\lang brazilian
+Caminho de fluxo real, 'La', comprimento da amostra, 'L', e tortuosidade,
+ 'La/L'.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "azar2008approach"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A tortuosidade não é um fator independente, pois pode depender de vários
+ aspectos, como porosidade e geometria dos poros.
+ Além disso, essa razão não assume valores inferiores a 1,0, com base no
+ fato de que seu valor mínimo ocorre quando 
+\begin_inset Formula $L_{a}=L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Em seus estudos, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archie1942electrical"
+literal "false"
+
+\end_inset
+
+ afirmou que a condutividade de uma rocha saturada com salmoura está diretamente
+ relacionada à condutividade elétrica específica da rocha quando saturada
+ com água 
+\begin_inset Formula $(R_{0})$
+\end_inset
+
+, que, por sua vez, é proporcional à resistividade específica da salmoura
+ 
+\begin_inset Formula $(\ensuremath{R_{w}})$
+\end_inset
+
+.
+ O modelo de condutividade da rocha é mostrado na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Conductivity Rock"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+R_{0}=FRF\times R_{w}\label{eq: Conductivity Rock}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O fator de resistividade da formação 
+\begin_inset Formula $FRF$
+\end_inset
+
+ representa a magnitude da resistividade em relação à salmoura condutora
+ devido à presença de uma matriz não condutora.
+ Assim, os poros atuam como os únicos condutores, e uma correlação entre
+ o fator de resistividade da formação e a porosidade pode ser obtida, conforme
+ mostrado na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Formation Resistivity Factor"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+FRF=\frac{R_{o}}{R_{w}}=\frac{1}{\phi_{e}^{m}}\label{eq: Formation Resistivity Factor}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $m$
+\end_inset
+
+ é um fator empírico conhecido como o expoente de cimentação.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "latour1995pore"
+literal "false"
+
+\end_inset
+
+ propõem uma abordagem para estimar a tortuosidade com base nos resultados
+ de testes laboratoriais.
+ Eles sugerem que a tortuosidade pode ser calculada usando a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Tortuosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, considerando os parâmetros
+\begin_inset Formula $FRF$
+\end_inset
+
+ e 
+\begin_inset Formula $\phi_{e}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tau=FRF\times\phi_{e}\label{eq:Tortuosity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archie1942electrical"
+literal "false"
+
+\end_inset
+
+ a concentração de salmouras utilizadas para saturar as amostras varia entre
+ 20.000 a 100.000.
+\begin_inset Formula $mg/L$
+\end_inset
+
+ de NaCl.
+\end_layout
+
+\begin_layout Subsection
+Área Superficial Específica
+\end_layout
+
+\begin_layout Standard
+Conforme afirmado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+, a área superficial específica do poro diminui à medida que o raio do poro
+ aumenta, implicando que uma área de superfície específica maior sugere
+ a existência de poros menores.
+\end_layout
+
+\begin_layout Standard
+A razão entre a área de superfície 
+\begin_inset Formula $m\,(2\pi rL)$
+\end_inset
+
+ e o volume do poro 
+\begin_inset Formula $m\,(\pi r^{2}L)$
+\end_inset
+
+ representa a área de superfície específica para tubos capilares 
+\begin_inset Formula $[cm\ensuremath{^{-1}}]$
+\end_inset
+
+, conforme mostrado na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Surface Area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{vp}=\frac{A_{s}}{V_{p}}=\frac{m(2\pi rL}{m(\pi r^{2}L)}=\frac{2}{r}\label{eq: Specific Surface Area}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $r$
+\end_inset
+
+ 
+\begin_inset Formula $[cm]$
+\end_inset
+
+ é o raio do poro e 
+\begin_inset Formula $L$
+\end_inset
+
+ 
+\begin_inset Formula $[cm]$
+\end_inset
+
+ o comprimento.
+\end_layout
+
+\begin_layout Standard
+Em um feixe de tubos capilares, a área total exposta, representada por 
+\begin_inset Formula $A_{t}$
+\end_inset
+
+, é igual à área de superfície.
+ O volume de grãos 
+\begin_inset Formula $V_{gr}$
+\end_inset
+
+ é calculado como 
+\begin_inset Formula $A_{c}L(1-\eta_{e})$
+\end_inset
+
+, conforme indicado na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Grain Volume"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, onde 
+\begin_inset Formula $A_{c}$
+\end_inset
+
+
+\begin_inset Formula $\left[cm^{2}\right]$
+\end_inset
+
+ representa a área total da seção transversal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{vgr}=\frac{m(2πrL)}{A_{c}L(1-\phi_{e})}=\frac{2πmr}{A_{c}(1-\phi_{e})}=\frac{πmr^{2}}{A_{c}}(\frac{2}{r})\frac{1}{(1-\phi_{e})}\label{eq: Specific Grain Volume}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Após algumas manipulações algébricas, a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Surface Area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ é aplicada à Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Specific Grain Volume"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e pode-se chegar à Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:  specific surface area per unit volume of the grain"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, gerando a área de superfície específica por unidade de volume do grão
+ 
+\begin_inset Formula $[cm^{-1}]$
+\end_inset
+
+ como uma função da área de superfície específica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Svgr=S_{vp}(\frac{\phi_{𝑒}}{1−\phi_{𝑒}})\label{eq:  specific surface area per unit volume of the grain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tamanho de Poro Dominante
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "weger2006quantitative"
+literal "false"
+
+\end_inset
+
+ mostrou que o tamanho de poro dominante em uma amostra é definido como
+ o máximo raio de poro associado a 50% da porosidade em uma seção petrográfica.
+\end_layout
+
+\begin_layout Subsection
+Permeabilidade
+\end_layout
+
+\begin_layout Standard
+A capacidade de uma rocha de transmitir fluido através de seu espaço poroso
+ é chamada de permeabilidade, uma propriedade fundamental.
+ Nas rochas carbonáticas, a permeabilidade pode variar consideravelmente
+ para a mesma porosidade devido a várias propriedades do espaço poroso.
+\end_layout
+
+\begin_layout Standard
+Existem três tipos de permeabilidade: absoluta, efetiva e relativa.
+ A permeabilidade absoluta refere-se ao fluxo de um único fluido não reativo,
+ enquanto a permeabilidade efetiva envolve o fluxo de um fluido na presença
+ de outro imiscível.
+ A permeabilidade relativa é a razão entre a permeabilidade efetiva e a
+ permeabilidade absoluta.
+\end_layout
+
+\begin_layout Standard
+A Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ apresentada, descreve o fluxo de fluido em meios porosos, onde variáveis
+ como taxa de fluxo, constante de proporcionalidade do meio poroso, área
+ da seção transversal, alturas da água e comprimento do meio poroso são
+ consideradas.
+ Esta equação foi empiricamente derivada de um experimento de tratamento
+ de água utilizando filtros de areia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosa2006engenharia"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+q=KA\frac{h_{1}-h_{2}}{L}\label{eq:Darcy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde a constante 
+\begin_inset Formula $K$
+\end_inset
+
+ [
+\begin_inset Formula $D$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K=\frac{\gamma k}{\mu}\label{eq:K_darcy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+depende da permeabilidade absoluta do meio poroso, da viscosidade 
+\begin_inset Formula $\mu$
+\end_inset
+
+ 
+\begin_inset Formula $[cP]$
+\end_inset
+
+ e do peso específico do fluido.
+\begin_inset Formula $\gamma$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{N}{m^{3}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ao substituir a Equação.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:K_darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, obtem-se a lei de Darcy para fluidos, Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Darcy's Law"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q=\frac{KA\Delta P}{\mu L}\label{eq: Darcy's Law}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ possuem unidades de pressão, podem ser substituídos por 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\begin_inset Formula $[atm]$
+\end_inset
+
+.
+ A viscosidade do fluido é expressa em centipoise 
+\begin_inset Formula $[cP]$
+\end_inset
+
+ e a permeabilidade em Darcy 
+\begin_inset Formula $[D]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Modelos de Permeabilidade
+\end_layout
+
+\begin_layout Standard
+Diversos modelos para estimar a permeabilidade estão disponíveis na literatura,
+ como os modelos de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics,saki2020new,kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+.
+ No presente estudo, esses três métodos serão desenvolvidos.
+ No entanto, apenas os dois últimos serão utilizados, uma vez que os dados
+ necessários para a estimativa de Kozeny-Carman 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+ não foram obtidos.
+\end_layout
+
+\begin_layout Subsubsection
+Modelo de Kozeny-Carman 
+\end_layout
+
+\begin_layout Standard
+Este modelo relaciona a permeabilidade de um meio poroso à sua estrutura
+ e às propriedades do fluido.
+ A equação de Kozeny-Carman é derivada com base em uma idealização do fluxo
+ de fluidos através de um meio poroso, considerando-o como um conjunto de
+ canais capilares tortuosos e uniformemente distribuídos
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tiab2024petrophysics"
+literal "false"
+
+\end_inset
+
+.
+ A teoria de Kozeny-Carman pode ser expressa pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Kozeny Carman"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k=\frac{\phi\,d_{p}^{2}}{16\,τ}\label{eq:Kozeny Carman}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $k$
+\end_inset
+
+ 
+\begin_inset Formula $[mD]$
+\end_inset
+
+ é a permeabilidade absoluta , 
+\begin_inset Formula $\phi$
+\end_inset
+
+ [%] é a porosidade , 
+\begin_inset Formula $\tau$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $[\frac{\mu m}{\mu m}]$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+é a tortuosidade, e 
+\begin_inset Formula $dp$
+\end_inset
+
+ [
+\begin_inset Formula $\mu m$
+\end_inset
+
+] é o diâmetro médio dos poros (volume médio).
+\end_layout
+
+\begin_layout Subsubsection
+Modelo de Winland
+\end_layout
+
+\begin_layout Standard
+Conforme relatado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kolodzie1980analysis"
+literal "false"
+
+\end_inset
+
+, Winland desenvolveu um método para calcular o tamanho médio da garganta
+ de poro em suas abordagens nos campos de Weyburn, Hidalgo e Spindle.
+ O modelo desenvolvido por Winland pode ser observado através da Equação
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Winland Equation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,(r35)=0.732+0.588\,log\,k_{air}−\,0.864\,log\,\phi\label{eq: Winland Equation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ 
+\begin_inset Formula $[\ensuremath{\mu m}]$
+\end_inset
+
+ refere-se ao raio dos menores poros ou gargantas preenchidos com mercúrio
+ a 35% de saturação em um teste MIP.
+ Além disso, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ [%] representa a porosidade, e 
+\begin_inset Formula $K_{air}$
+\end_inset
+
+ 
+\begin_inset Formula $[mD]$
+\end_inset
+
+ denota a permeabilidade relativa ao ar.
+ Os intervalos de permeabilidade e porosidade utilizados no conjunto de
+ dados para a equação de Winland não foram especificados.
+\end_layout
+
+\begin_layout Subsubsection
+Modelo de Saki
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saki2020new"
+literal "false"
+
+\end_inset
+
+utiliza um modelo semelhante ao abordado por Winland, mas com um conjunto
+ de dados mais robusto.
+ No entanto, em seu estudo, é possível identificar a relação de 
+\begin_inset Formula $r_{35}$
+\end_inset
+
+ com a permeabilidade e a porosidade.
+ O modelo de Saki pode ser observado pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Saki Equation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+log\,k_{gas}=0.0583+1.4660\,log\,(r35)+0.6993\,log\,\phi\label{eq:Saki Equation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ambiente Deposicional da Formação Barra Velha
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "amorim2021analise"
+literal "false"
+
+\end_inset
+
+, a Formação Barra Velha, localizada na Bacia de Santos e datada do período
+ Aptiano, originou-se em um ambiente lacustre e consiste em depósitos carbonátic
+os do Pré-Sal.
+ Esta formação é de interesse devido a várias incertezas relacionadas à
+ sua evolução, à influência microbiana na diagenese das rochas e ao tipo
+ de ambiente deposicional.
+ Além disso, os carbonatos, por sua própria natureza, apresentam heterogeneidade
+s significativas, assim como os minerais associados encontrados nesta formação,
+ indicando condições específicas para sua formação.
+\end_layout
+
+\begin_layout Standard
+A Formação Barra Velha tem sua base marcada pela inconformidade Pré-Alagoas,
+ que a separa dos depósitos bioclásticos e das argilas da Formação Itapema,
+ conforme observado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chinelatto2020taphofacies"
+literal "false"
+
+\end_inset
+
+.
+ A parte superior é definida pela inconformidade da base salina, indicando
+ a transição abrupta para os evaporitos da Formação Ariri, conforme destacado
+ por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yamamoto2019analysis"
+literal "false"
+
+\end_inset
+
+.
+ Devido à sua evolução associada à separação entre os continentes sul-americano
+ e africano, depósitos geneticamente relacionados à Formação Barra Velha,
+ como a Formação Macabu na Bacia de Campos e os depósitos da fase sag das
+ bacias da África Ocidental 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "herlinger2017influence,saller2016presalt"
+literal "false"
+
+\end_inset
+
+, podem ser integrados para entender o sistema de deposição predominante
+ durante o Aptiano e os processos sedimentares e diagenéticos que afetaram
+ os reservatórios do Pré-Sal.
+\end_layout
+
+\begin_layout Standard
+Diversos estudos na última década propuseram uma interpretação lacustre
+ para os carbonatos da fase sag do Pré-Sal brasileiro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015abiotic,wright2017critically,wright2018reinterpreting,pietzsch2020environmental"
+literal "false"
+
+\end_inset
+
+ substituindo a interpretação inicial de origem marinha ou transicional
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+ A falta de conteúdo fóssil marinho, como foraminíferos, e a ausência de
+ uma composição mineralógica indicativa de influência marinha, como sulfatos
+ (gesso e anidrita), são argumentos importantes em favor de uma origem lacustre
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015abiotic"
+literal "false"
+
+\end_inset
+
+.
+ Além disso, dados geoquímicos e isotópicos também sugerem uma predominância
+ de influência continental 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pietzsch2020environmental"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+No entanto,
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+ enfatiza que existem dois modelos principais e distintos que têm sido amplament
+e debatidos em relação às condições de deposição da Formação Barra Velha
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Depositional model for Barra Velha Formation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Esses modelos e suas variações diferem principalmente em termos de característi
+cas hidrológicas e da forma do sistema lacustre.
+ Um desses modelos descreve um lago profundo, onde plataformas microbianas
+ extensas e estruturas em larga escala se desenvolveram.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/wright.png
+	lyxscale 75
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Depositional model for Barra Velha Formation"
+
+\end_inset
+
+ Modelos de configuração deposicional para a formação Barra Velha 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De forma geral, o modelo de lago profundo e plataforma carbonática está
+ mais alinhado com as evidências observadas na escala sísmica, incluindo
+ clinoformas de centenas de metros e geomorfologia sísmica que indica uma
+ topografia do fundo do lago extremamente íngreme.
+ Em contraste, os modelos conceituais de lagos rasos e evaporíticos buscam
+ explicar várias características petrográficas e evidências isotópicas e
+ geoquímicas, sugerindo variações significativas e frequentes na química
+ da água, resultando em condições de extrema alcalinidade 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2017critically"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Sistema Petrolífero da Formação Barra Velha
+\end_layout
+
+\begin_layout Standard
+A Formação Barra Velha é reconhecida como um dos principais sistemas petrolífero
+s da Bacia de Santos, ao lado de Piçarras-Guarujá e Itajaí-Açu-Ilha Bela.
+ A origem da Formação Barra Velha remonta a depósitos de xistos lacustres
+ com intercalações de carbonatos da Formação Piçarras, seguidos pela deposição
+ em reservatórios carbonáticos das formações Itapema e Barra Velha.
+ Essa formação está associada ao sistema petrolífero presente na seção pré-sal
+ da Bacia de Santos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moreira2007bacia"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Reservatórios Carbonáticos da Bacia de Santos: Importância das Formações
+ Itapema e Barra Velha no Pré-Sal
+\end_layout
+
+\begin_layout Standard
+A Bacia de Santos apresenta uma variedade de rochas reservatório, incluindo
+ carbonatos oolíticos de águas rasas da Formação Guarujá e arenitos turbidíticos
+ eocênicos da Formação Marambaia e do Membro Ilha Bela da Formação Itajaí-Açu
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chang1990novos"
+literal "false"
+
+\end_inset
+
+.
+ No entanto, é importante destacar a contribuição significativa das formações
+ Itapema e Barra Velha como os principais reservatórios na seção pré-sal.
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANP-Rodada-Bacia-de-Santos"
+literal "false"
+
+\end_inset
+
+, essas formações carbonáticas desempenham um papel crucial na exploração
+ do pré-sal brasileiro, abrigando volumes gigantescos de petróleo descobertos
+ em campos como Lula, Sapinhoá e Búzios, entre outros.
+ Compostas por rochas carbonáticas formadas por coquinas e/ou microbialitos,
+ bem como coquinas de ostrácodes e clastos de estromatólitos, as formações
+ Itapema e Barra Velha representam reservatórios de grande importância econômica
+ e estratégica.
+\end_layout
+
+\begin_layout Standard
+Os carbonatos microbianos dessas formações são encontrados nas seções superiores
+ de rifte (sin-rifte) e sag (pós-rifte), frequentemente sobrepondo depósitos
+ de coquina da Formação Itapema, que data do Neo-Barremiano ao Eoaptiano.
+ Essas características geológicas não apenas delineiam a complexidade das
+ formações, mas também destacam sua relevância na exploração e produção
+ de petróleo na região do pré-sal.
+\end_layout
+
+\begin_layout Subsection
+Modelos de Acumulação e Alvos de Exploração na Bacia de Santos
+\end_layout
+
+\begin_layout Standard
+A exploração da Bacia de Santos revelou uma diversidade de modelos de acumulação
+ ao longo do tempo, resultando na identificação de campos e descobertas
+ sub-comerciais em diferentes estratos geológicos, especialmente na seção
+ de rifte.
+ Entre os principais alvos de exploração da bacia, conforme destacado na
+ figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-Bacia-de-santos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, estão os carbonatos aptianos das Formaçãos Itapema e Barra Velha (conhecidos
+ como o 
+\emph on
+play 
+\emph default
+do Pré-Sal), os carbonatos albianos da Formação Guarujá, os arenitos turbidítico
+s do Membro Ilhabela da Formação Itajaí-Açu e os arenitos turbidíticos do
+ Membro Maresias da Formação Marambaia.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Play Petrolífero - Barra VElha - Santos Basin.png
+	lyxscale 50
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Principais Modelos de Acumulação da Bacia de Santos.
+ A) 
+\emph on
+Play
+\emph default
+ do Pré-Sal; B) 
+\emph on
+Play
+\emph default
+ Carbonático Albiano da Formação Guarujá; C) 
+\emph on
+Play
+\emph default
+ Turbidítico do Membro Ilhabela; D) 
+\emph on
+Play
+\emph default
+ Turbidítico da Formação Marambaia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chang1990novos"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-Bacia-de-santos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Porosimetria Por Intrusão de Mercúrio (MIP)
+\end_layout
+
+\begin_layout Standard
+De acordo com
+\begin_inset CommandInset citation
+LatexCommand cite
+key "glover2000modified"
+literal "false"
+
+\end_inset
+
+, a Porosimetria por Intrusão de Mercúrio é uma metodologia amplamente utilizada
+ para investigar as propriedades dos poros.
+ Este método se baseia no conceito de que o mercúrio é um fluido não molhante
+ e não pode preencher espontaneamente os poros da rocha.
+\end_layout
+
+\begin_layout Standard
+Assim, uma amostra seca de qualquer forma, previamente pesada, é inserida
+ em uma câmara que será gradualmente preenchida com mercúrio sob diferentes
+ níveis de pressão.
+ Observando uma escala de volume, pode-se deduzir como o nível de mercúrio
+ dentro da câmara varia.
+ Em pressões muito baixas, o mercúrio permanece ao redor da amostra e não
+ penetra nos poros.
+ Portanto, o aumento do nível de mercúrio está relacionado ao volume total
+ da amostra.
+ À medida que a pressão aumenta, o mercúrio começa a ocupar os poros, e
+ uma diminuição do nível de mercúrio é registrada na escala.
+ O mercúrio penetra em poros progressivamente menores a cada estágio, superando
+ a pressão capilar que atua contra o líquido não molhante.
+\end_layout
+
+\begin_layout Standard
+A relação entre a pressão aplicada e o tamanho mínimo do poro em que o mercúrio
+ é forçado a entrar é descrita pela Equação de Washburn 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Washburn model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D=\frac{-4\gamma\cos\left(\theta\right)}{P}\label{eq: Washburn model}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $D$
+\end_inset
+
+ é o diâmetro do poro, 
+\begin_inset Formula $P$
+\end_inset
+
+ é a pressão aplicada, 𝛾 é a tensão superficial e 
+\begin_inset Formula $θ$
+\end_inset
+
+ é o ângulo de contato entre o mercúrio e a parede do poro.
+\end_layout
+
+\begin_layout Standard
+De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+, a porosimetria por mercúrio é uma técnica de caracterização extremamente
+ útil para materiais porosos.
+ Em sua pesquisa, o autor sugere que poros entre 500 
+\begin_inset Formula $𝜇𝑚$
+\end_inset
+
+ μm e 3,5 
+\begin_inset Formula $nm$
+\end_inset
+
+ podem ser investigados.
+ A porosimetria por mercúrio fornece uma riqueza de informações, como distribuiç
+ão do tamanho dos poros, volume total de poros ou porosidade, densidade
+ esquelética e aparente, bem como a área de superfície da amostra.
+ Ainda segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+, nenhuma outra técnica de caracterização de porosidade pode alcançar essa
+ gama de informações.
+\end_layout
+
+\begin_layout Standard
+No entanto, vale a pena notar que o método também possui limitações.
+ Uma de suas principais limitações é que o mercúrio mede as maiores entradas
+ em direção a um poro, mas não mede seu tamanho interno verdadeiro.
+ Por esse motivo, essa técnica não permite a análise de poros fechados,
+ já que o mercúrio não pode acessá-los, como mostrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic-representation-os"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/Downloads/Representação esquemática de poros (1).png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Representação esquemática dos poros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giesche2006mercury"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematic-representation-os"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em seu trabalho 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+ também utilizou a técnica de porosimetria de injeção a mercúrio, entretanto
+ para a caracterização petrofísica de estromatólitos da Lagoa Salgada.
+ Na pesquisa de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, os estromatólitos foram subdivididos em três fácies: A, B e C, sendo a
+ fácies A composta por estromatólitos do tipo trombolítico/vugular, a fácies
+ B por trombólitos, e a fácies C por tapetes microbianos.
+ 
+\end_layout
+
+\begin_layout Standard
+Por meio da técnica de MIP, foi possível compilar dados de permo-porosidade
+ a partir de resultados extraídos da literatura.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Crossplot-between-porosity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ apresenta dados de três poços: um obtido por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+ e dois referentes a estromatólitos do pré-sal da Bacia de Santos, identificados
+ como poços A e B, fornecidos pela Agência Nacional do Petróleo (ANP).
+ Além disso, a figura também inclui dados de estromatólitos provenientes
+ da Lagoa Salgada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Permoporosity.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Crossplot-between-porosity"
+
+\end_inset
+
+Gráfico de dispersão entre porosidade e permeabilidade, exibindo as estimativas
+ baseadas na MIP e resultados obtidos na literatura.
+ Dados de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luna2020permeability"
+literal "false"
+
+\end_inset
+
+, os poços pré-sal A e B referem-se a estromatólitos pré-sal da Bacia de
+ Santos.
+ Todos os outros dados da literatura referem-se a estromatólitos da Lagoa
+ Salgada.
+ As elipses tracejadas representam três regiões distintas que apresentam
+ praticamente a mesma porosidade, mas com grande variabilidade em permeabilidade
+, adaptado de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme indicado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+, não foi possível identificar um padrão de comportamento que pudesse ser
+ facilmente modelado.
+ No entanto, os autores observaram uma tendência na permo-porosidade das
+ amostras nas regiões I e II, sugerindo um comportamento semelhante entre
+ as fácies B e C dos estromatólitos da Lagoa Salgada e as rochas do pré-sal.
+ Essa analogia petrofísica reflete uma semelhança no comportamento da permo-poro
+sidade, que pode ser útil para compreender o comportamento deposicional
+ dessas formações.
+\end_layout
+
+\begin_layout Standard
+A partir de imagens de lâminas petrográficas, seu estudo fornece dados relevante
+s sobre a complexidade do sistema poroso que compreende diversos tipos de
+ porosidade, tais como a prorosidade móldica, por canais e fenestrais conforme
+ é possível observar na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pore-analysis-using"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/ceia estromat.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pore-analysis-using"
+
+\end_inset
+
+Lâmina petrográfica extraída de amostras da fácie A 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ceia2022petrophysical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
