@@ -615,6 +615,7 @@ name "fig:Actual-flow-path"
 \lang brazilian
 Caminho de fluxo real, 'La', comprimento da amostra, 'L', e tortuosidade,
  'La/L'.
+ Figura adaptada de
 \begin_inset CommandInset citation
 LatexCommand cite
 key "azar2008approach"
@@ -1695,7 +1696,7 @@ do Pré-Sal), os carbonatos albianos da Formação Guarujá, os arenitos turbid�
 s do Membro Ilhabela da Formação Itajaí-Açu e os arenitos turbidíticos do
  Membro Maresias da Formação Marambaia.
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open

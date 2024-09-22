@@ -406,7 +406,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -615,6 +615,7 @@ name "fig:Actual-flow-path"
 \lang brazilian
 Caminho de fluxo real, 'La', comprimento da amostra, 'L', e tortuosidade,
  'La/L'.
+ Figura Extraída de
 \begin_inset CommandInset citation
 LatexCommand cite
 key "azar2008approach"
@@ -1524,6 +1525,7 @@ cas hidrológicas e da forma do sistema lacustre.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1694,7 +1696,7 @@ do Pré-Sal), os carbonatos albianos da Formação Guarujá, os arenitos turbid�
 s do Membro Ilhabela da Formação Itajaí-Açu e os arenitos turbidíticos do
  Membro Maresias da Formação Marambaia.
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2002,7 +2004,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename C:/Users/marce/OneDrive/Documents/GitHub/TCC-Marcelo_Bernardo/TCC-Marcelo_Bernardo/imagens/Permoporosity.png
-	scale 90
+	scale 75
 
 \end_inset
 
@@ -2095,7 +2097,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open

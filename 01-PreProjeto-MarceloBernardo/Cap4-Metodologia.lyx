@@ -241,7 +241,16 @@ name "fig:Location-map-of"
 
 \end_inset
 
-Location map of the region of Carioca
+Mapa da localização de Carioca.
+ Extraída de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "anp2023"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -297,7 +306,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float table
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -305,32 +314,20 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="6">
+<lyxtabular version="3" rows="7" columns="5">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="1.75cm">
-<column alignment="center" valignment="top" width="1.5cm">
-<column alignment="center" valignment="top" width="1.7cm">
-<column alignment="center" valignment="top" width="2.5cm">
-<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="30mm">
+<column alignment="center" valignment="top" width="30mm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-Poço (ANP)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Tipo de Amostra
 \end_layout
 
@@ -341,7 +338,7 @@ Tipo de Amostra
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Profundidade (
 \begin_inset Formula $m$
 \end_inset
@@ -356,7 +353,7 @@ Profundidade (
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Porosidade (%)
 \end_layout
 
@@ -367,7 +364,7 @@ Porosidade (%)
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Pressão Máxima (
 \begin_inset Formula $psia$
 \end_inset
@@ -382,7 +379,7 @@ Pressão Máxima (
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Raio Mínimo de Poro (
 \begin_inset Formula $mm$
 \end_inset
@@ -399,18 +396,7 @@ Raio Mínimo de Poro (
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
@@ -421,7 +407,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 5236,4
 \end_layout
 
@@ -432,7 +418,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 14,0
 \end_layout
 
@@ -443,7 +429,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59984,7
 \end_layout
 
@@ -454,7 +440,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -462,67 +448,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 5240,5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 8,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59987,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -530,67 +505,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5243
+\size footnotesize
+5243,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 12,5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 56584,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001885 
 \end_layout
 
@@ -598,67 +562,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5249
+\size footnotesize
+5249,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 11,9
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59986,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -666,67 +619,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 5249,2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 7,8
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59985,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -734,67 +676,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5250
+\size footnotesize
+5250,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 8,9
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59985,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -1198,7 +1129,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -1420,7 +1351,7 @@ status open
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1429,7 +1360,7 @@ Classificação de Ahr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1465,7 +1396,7 @@ Raio de Garganta de Poro
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1474,7 +1405,7 @@ Microporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1488,7 +1419,7 @@ Microporo
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1497,7 +1428,7 @@ Mesoporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1512,7 +1443,7 @@ Mesoporo
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1521,7 +1452,7 @@ Macroporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1930,7 +1861,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float table
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -1943,19 +1874,23 @@ status open
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Equação
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Coeficiente de Determinação, 
 \begin_inset Formula $R^{2}$
 \end_inset
@@ -1967,10 +1902,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=−0.6756+1.3627\,\log\,r_{20}+1.1369\,\log\,\phi$
 \end_inset
 
@@ -1979,10 +1916,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.7624
 \end_layout
 
@@ -1990,10 +1929,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=−0.3958+1.3974\,\log\,r_{25}+0.9583\,\log\,\phi$
 \end_inset
 
@@ -2002,10 +1943,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.7970
 \end_layout
 
@@ -2013,10 +1956,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=−0.1862+1.4296\,\log\,r_{30}+0.8402\,\log\,\phi$
 \end_inset
 
@@ -2025,10 +1970,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.8251
 \end_layout
 
@@ -2036,10 +1983,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.0583+1.4660\,\log\,r_{35}+0.6993\,\log\,\phi$
 \end_inset
 
@@ -2048,10 +1997,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.8587
 \end_layout
 
@@ -2059,10 +2010,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.2365+1.4842\,\log\,r_{40}+0.6108\,\log\,\phi$
 \end_inset
 
@@ -2071,10 +2024,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.8361
 \end_layout
 
@@ -2082,10 +2037,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.3785+1.4845\,\log\,r_{45}+0.5503\,\log\,\phi$
 \end_inset
 
@@ -2094,10 +2051,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.8213
 \end_layout
 
@@ -2105,10 +2064,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.5420+1.4964\,\log\,r_{50}+0.4819\,\log\,\phi$
 \end_inset
 
@@ -2117,10 +2078,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.8054
 \end_layout
 
@@ -2128,10 +2091,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.6796+1.5024\,\log\,r_{55}+0.4428\,\log\,\phi$
 \end_inset
 
@@ -2140,10 +2105,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.7862
 \end_layout
 
@@ -2151,10 +2118,12 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Formula $\log\,K=\,0.8152+1.5110\,\log\,r_{60}+0.4157\,\log\,\phi$
 \end_inset
 
@@ -2163,10 +2132,12 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 0.7521
 \end_layout
 
@@ -2192,8 +2163,7 @@ name "tab:Results-of-regresion SAKI"
 
 Resultados da análise de regressão para determinar a relação entre a permeabilid
 ade, a porosidade e os menores raios de garganta de poros preenchidos com
- mercúrio.
- 
+ mercúrio 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "saki2020new"
@@ -2353,6 +2323,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename C:/Users/marce/OneDrive/Documents/GitHub/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto-master/imagens/Saki model cross-plot.png
+	scale 75
 
 \end_inset
 
@@ -2373,7 +2344,8 @@ Permeabilidade medida
 \emph on
 vs 
 \emph default
-calculada, extraído de 
+calculada.
+ Figura extraída de 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "saki2020new"
@@ -2386,10 +2358,6 @@ literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 

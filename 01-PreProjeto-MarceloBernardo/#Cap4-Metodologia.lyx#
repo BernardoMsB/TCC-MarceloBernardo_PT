@@ -199,8 +199,7 @@ O campo situa-se na porção central da Bacia de Santos, a aproximadamente
 
 .
  A localização exata do poço e os limites do bloco exploratório podem ser
- observados no mapa apresentado na Figura.
- 
+ observados no mapa apresentado na Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Location-map-of"
@@ -242,7 +241,16 @@ name "fig:Location-map-of"
 
 \end_inset
 
-Location map of the region of Carioca
+Mapa da localização de Carioca.
+ Extraída de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "anp2023"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -266,7 +274,11 @@ Os fragmentos coletados foram fornecidos pela Agência Nacional do Petróleo
 des diferentes.
  Os dados são apresentados com base em duas técnicas: MIP (Porosimetria
  por Intrusão de Mercúrio) e Membrana.
- No entanto, apenas as 06 profundidades relacionadas à técnica de intrusão
+ 
+\end_layout
+
+\begin_layout Standard
+No entanto, apenas as 06 profundidades relacionadas à técnica de intrusão
  de mercúrio serão consideradas.
  As profundidades selecionadas fornecem perfis detalhados das propriedades
  da formação rochosa.
@@ -302,32 +314,20 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="6">
+<lyxtabular version="3" rows="7" columns="5">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="1.75cm">
-<column alignment="center" valignment="top" width="1.5cm">
-<column alignment="center" valignment="top" width="1.75cm">
-<column alignment="center" valignment="top" width="2.5cm">
-<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="20mm">
+<column alignment="center" valignment="top" width="30mm">
+<column alignment="center" valignment="top" width="30mm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-Poço (ANP)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Tipo de Amostra
 \end_layout
 
@@ -338,7 +338,7 @@ Tipo de Amostra
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Profundidade (
 \begin_inset Formula $m$
 \end_inset
@@ -353,7 +353,7 @@ Profundidade (
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Porosidade (%)
 \end_layout
 
@@ -364,7 +364,7 @@ Porosidade (%)
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Pressão Máxima (
 \begin_inset Formula $psia$
 \end_inset
@@ -379,7 +379,7 @@ Pressão Máxima (
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 Raio Mínimo de Poro (
 \begin_inset Formula $mm$
 \end_inset
@@ -396,18 +396,7 @@ Raio Mínimo de Poro (
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
@@ -418,7 +407,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 5236,4
 \end_layout
 
@@ -429,7 +418,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 14,0
 \end_layout
 
@@ -440,7 +429,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59984,7
 \end_layout
 
@@ -451,7 +440,7 @@ Fragmento
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -459,67 +448,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 5240,5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 8,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59987,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -527,67 +505,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5243
+\size footnotesize
+5243,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 12,5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 56584,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001885 
 \end_layout
 
@@ -595,67 +562,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5249
+\size footnotesize
+5249,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 11,9
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59986,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -663,67 +619,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5249.,2
+\size footnotesize
+5249,2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 7,8
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59985,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -731,67 +676,56 @@ Fragmento
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-1-BRSA-491-SPS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
+\size footnotesize
 Fragmento
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
-5250
+\size footnotesize
+5250,0
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 8,9
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 59985,7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\size small
+\size footnotesize
 0,001778 
 \end_layout
 
@@ -858,8 +792,12 @@ literal "false"
  atua para introduzir sua entrada incide sobre a área de contato com o poro.
  O produto dessa força por unidade de área e a área total equivale à força
  externa total aplicada ao mercúrio.
- Antes de ser compelido a entrar no espaço poroso, deve haver uma força
- que se opõe à força externa, garantindo o equilíbrio.
+ 
+\end_layout
+
+\begin_layout Standard
+Antes de ser compelido a entrar no espaço poroso, deve haver uma força que
+ se opõe à força externa, garantindo o equilíbrio.
  Essa força, por sua vez, resulta do produto da tensão superficial do mercúrio
  pelo cosseno do ângulo de contato, multiplicado pelo perímetro de contato
  do poro.
@@ -921,7 +859,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -1027,8 +965,11 @@ literal "false"
  de poro.
  Esta técnica permite a medição do tamanho mínimo garganta de poro que o
  mercúrio pode entrar sob uma pressão específica.
- Além disso, a porosimetria de mercúrio vai além da simples avaliação da
- porosidade.
+ 
+\end_layout
+
+\begin_layout Standard
+A porosimetria de mercúrio vai além da simples avaliação da porosidade.
  Também é utilizada para determinar características como massa, densidade
  da matriz e distribuição de partículas em um material.
  Esta técnica permite o preenchimento de espaços vazios e espaços intersticiais,
@@ -1080,7 +1021,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -1160,7 +1101,7 @@ noprefix "false"
  na região B da figura 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Volume-variation-versus"
+reference "fig:Intrusion-volume-versus"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1214,8 +1155,12 @@ name "fig:Intrusion-volume-versus"
 
 \end_inset
 
-Volume de intrusão versus Pressão.
- Adaptado de 
+Volume de intrusão 
+\emph on
+vs
+\emph default
+ Pressão.
+ Figura adaptada de 
 \begin_inset Note Note
 status open
 
@@ -1299,16 +1244,16 @@ name "fig:Volume-variation-versus"
 
 \end_inset
 
-Variação do Volume vs Pressão.
- Adapted from (GOUVEA, 2004)
+Variação do Volume 
+\emph on
+vs
+\emph default
+ Pressão.
+ Figura adaptada de (GOUVEA, 2004)
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1346,7 +1291,11 @@ A equação de Washburn relaciona a pressão aplicada, o tamanho do poro e
  dos poros.
  A importância da pressão aplicada e do ângulo de tensão interfacial (também
  conhecido como ângulo de contato) é crucial nessa relação.
- Neste modelo, a pressão aplicada e o ângulo de tensão interfacial determinam
+ 
+\end_layout
+
+\begin_layout Standard
+Neste modelo, a pressão aplicada e o ângulo de tensão interfacial determinam
  a capacidade do mercúrio de penetrar nos poros, garantindo assim a precisão
  na caracterização da distribuição do tamanho dos poros.
  A pressão aplicada deve ser suficiente para superar a resistência capilar,
@@ -1361,7 +1310,11 @@ A equação de Washburn relaciona a pressão aplicada, o tamanho do poro e
 Baseando-se em dados disponíveis na literatura, foram obtidos valores do
  ângulo de contato mercúrio/amostra e da tensão interfacial entre mercúrio/ar,
  contribuindo para a aplicação da equação de Washburn.
- Ao aplicar a equação a diferentes amostras em várias profundidades, foram
+ 
+\end_layout
+
+\begin_layout Standard
+Ao aplicar a equação a diferentes amostras em várias profundidades, foram
  derivados valores do raio das gargantas dos poros, que, de acordo com 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1398,7 +1351,7 @@ status open
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1407,7 +1360,7 @@ Classificação de Ahr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1443,7 +1396,7 @@ Raio de Garganta de Poro
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1452,7 +1405,7 @@ Microporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1466,7 +1419,7 @@ Microporo
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1475,7 +1428,7 @@ Mesoporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1490,7 +1443,7 @@ Mesoporo
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1499,7 +1452,7 @@ Macroporo
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1562,8 +1515,12 @@ Como descrito na subseção 3.2.2, à medida que a pressão aumenta, o mercúrio
  deslocado, mesmo com o aumento da pressão.
  Ao atingir esse limite, entende-se que todo o espaço poroso foi preenchido,
  e, portanto, o volume deslocado corresponde ao volume poroso da amostra.
- A porosidade pode ser estimada como a razão entre o volume dos poros e
- o volume total.
+ 
+\end_layout
+
+\begin_layout Standard
+A porosidade pode ser estimada como a razão entre o volume dos poros e o
+ volume total.
  Se o peso da amostra for conhecido, o volume e a densidade da matriz podem
  ser calculados subtraindo-se o volume poroso do volume total.
  A densidade total é calculada como a razão entre o peso da amostra e o
@@ -1917,7 +1874,7 @@ status open
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1926,7 +1883,7 @@ Equação
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1941,7 +1898,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1953,7 +1910,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1964,7 +1921,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1976,7 +1933,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1987,7 +1944,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1999,7 +1956,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2010,7 +1967,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2022,7 +1979,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2033,7 +1990,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2045,7 +2002,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2056,7 +2013,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2068,7 +2025,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2079,7 +2036,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2091,7 +2048,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2102,7 +2059,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2114,7 +2071,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2125,7 +2082,7 @@ Coeficiente de Determinação,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2137,7 +2094,7 @@ Coeficiente de Determinação,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2193,7 +2150,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Conforme é possível inferir pela Table 
+Conforme é possível inferir pela Tabela 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Results-of-regresion SAKI"
@@ -2209,7 +2166,7 @@ noprefix "false"
 
  é utilizado.
  Dessa forma, a melhor equação que reflete a estimativa mais precisa para
- o cálculo da permeabilidade é a Equation 
+ o cálculo da permeabilidade é a Equação 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Saki method"
@@ -2238,15 +2195,15 @@ Nesta Equação,
 \begin_inset Formula $K$
 \end_inset
 
- é a permeabilidade do gás 
+ 
 \begin_inset Formula $[mD]$
 \end_inset
 
-, 
+ é a permeabilidade do gás, 
 \begin_inset Formula $\phi$
 \end_inset
 
- representa a porosidade [%] e 
+ [%] representa a porosidade e 
 \begin_inset Formula $r_{35}$
 \end_inset
 
@@ -2302,11 +2259,8 @@ noprefix "false"
 
 \end_inset
 
-, que mostra o gráfico dos valores de permeabilidade medidos 
-\emph on
-versus
-\emph default
- os valores calculados utilizando a equação 
+, que mostra o gráfico dos valores de permeabilidade medidos contra os valores
+ calculados utilizando a Equação 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq: Saki method"
@@ -2321,7 +2275,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2346,18 +2300,11 @@ name "fig:Measured-vs-calculated SAKI"
 
 \end_inset
 
-Permeabilidade medida  using Eq.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq: Saki method"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
+Permeabilidade medida 
+\emph on
+vs 
+\emph default
+calculada, extraído de 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "saki2020new"
@@ -2383,8 +2330,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Conversely, it is important to highlight the impossibility of using the
- permeability estimation method based on the Kozeny-Carman theory 
+Por outro lado, vale ressaltar a impossibilidade de utilizar o método de
+ estimativa de permeabilidade baseado na teoria de Kozeny-Carman 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "kozeny1927ueber"
@@ -2392,15 +2339,12 @@ literal "false"
 
 \end_inset
 
- due to insufficient data to calculate tortuosity, one of the essential
- parameters of this model.
- Tortuosity is crucial for determining the additional resistance to fluid
- flow in rock pores, and its absence precludes the precise application of
- the Kozeny-Carman model in analyzing the permeability of the studied samples.
-\end_layout
-
-\begin_layout Standard
-
+ devido à insuficiência de dados para calcular a tortuosidade, um dos parâmetros
+ essenciais desse modelo.
+ A tortuosidade é fundamental para determinar a resistência adicional ao
+ fluxo de fluidos nos poros da rocha, e sua ausência impede a aplicação
+ precisa do modelo de Kozeny-Carman na análise da permeabilidade das amostras
+ estudadas.
 \end_layout
 
 \end_body
